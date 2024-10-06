@@ -8,6 +8,7 @@ use Longman\TelegramBot\Entities\InlineKeyboard;
 use Longman\TelegramBot\Commands\UserCommand;
 
 $telegram = new Telegram('8070278994:AAHxoppPzvglgkvmTvCxDrwaf-vr_Gw2Xkc', 'my_goodx_bot');
+$telegram->setWebhook('https://godswill-ifeanyi.github.io/test_repo/webhook/hook.php');
 
 // Command to handle /start
 class StartCommand extends UserCommand {
